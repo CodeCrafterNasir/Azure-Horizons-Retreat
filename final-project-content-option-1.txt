@@ -18,7 +18,7 @@ navigation:
     Contact (contact page)
 
 image:
-    Use the image called "swiss-valley" as your hero image (be sure to write appropriate/descriptive alt text as needed)
+    Use the image called "swiss-valley" as your hero image (this should be added as a background using CSS)
 
 --------------------------------------------------
 MAIN
@@ -82,7 +82,7 @@ text:
     Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
     Required fields marked with a *
 image: 
-    use the image called swiss-sunset (be sure to write appropriate/descriptive alt text as needed)
+    use the image called swiss-peak (be sure to write appropriate/descriptive alt text as needed)
 form controls:
     full name 
         (control and label, required)
@@ -110,7 +110,7 @@ text:
     Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
     Required fields marked with a *
 image: 
-    use the image called swiss-peak (be sure to write appropriate/descriptive alt text as needed)
+    use the image called swiss-sunset (be sure to write appropriate/descriptive alt text as needed)
 form controls:
     full name 
         (control and label, required)
