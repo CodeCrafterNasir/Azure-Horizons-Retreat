@@ -4,8 +4,13 @@
         <meta charset="utf-8">
         <title>Name of Resort</title>
         <meta name="author" content="Nasir Ismail">
-        <meta name="description" content="description of resort">
+        <meta name="description" content="Experience the perfect getaway at our luxury resort, offering stunning views, top-tier amenities, and relaxing accommodations designed for ultimate comfort and rejuvenation.">
         <link rel="stylesheet" href="styles.css">
+
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 
     </head>
@@ -18,11 +23,47 @@
                     <li><a href="#">Accommodation</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
-           
+            </nav>           
         </header>
         <main>
+            <section>
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <img src="images/swiss-peak.jpg" alt="photo of a scenic view with a river, forest and a mountain." width="350" height="455">
+            </section>
+            <section>
+                <form action="" method="POST" target="_blank">
+                    <label for="first-name">First name*</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                    
+                    <label for="middle-initial">Middle initial</label>
+                    <input type="text" name="middle-initial" id="middleinitial">
+                    
+                    <label for="last-name">Last name*</label>
+                    <input type="text" name="last-name" id="last-name" required>
 
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="phone">Phone*</label>
+                    <input type="tel" name="phone" id="phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone" name="pref-phone" id="pref-phone">Phone</label>
+                    </fieldset>
+                    
+
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" required></textarea>
+
+                    <input type="submit" name="submit-button" id="submit-button" value="Submit Form" >
+                </form>
+            </section>
 
         </main>
         <footer>
